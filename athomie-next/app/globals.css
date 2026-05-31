@@ -1205,11 +1205,11 @@ input {
 
 .buyer-path-grid article {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr auto auto;
   min-height: 300px;
-  align-content: stretch;
+  align-content: center;
   background: var(--bg);
-  padding: 0;
+  padding: 0 22px;
 }
 
 .buyer-path-grid strong {
@@ -1227,28 +1227,31 @@ input {
 .buyer-path-grid p {
   align-self: start;
   grid-row: 1;
-  padding-inline: 22px;
+  padding-inline: 0;
 }
 
 .buyer-path-grid strong {
-  padding-top: 22px;
+  align-self: end;
+  padding-top: 0;
+  transform: translateY(-43px);
 }
 
 .buyer-path-grid p {
-  padding-top: 76px;
+  align-self: end;
+  padding-top: 0;
+  transform: translateY(16px);
 }
 
 .buyer-path-grid span {
   display: block;
-  height: 100%;
+  height: auto;
   align-self: start;
-  grid-row: 2;
-  border-top: 0.5px solid rgba(17, 17, 17, 0.14);
+  grid-row: 3;
+  border-top: 0.5px solid rgba(17, 17, 17, 0.22);
   color: var(--green);
   font-weight: 800;
   margin-top: 0;
-  padding: 16px 22px 22px;
-  transform: translateY(-1px);
+  padding: 22px 0 0;
 }
 
 .location-gallery {
