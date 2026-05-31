@@ -1,0 +1,366 @@
+{
+  "nav": {
+    "models": "Models",
+    "configurator": "Configurator",
+    "technology": "Technology",
+    "process": "Process",
+    "faq": "FAQ",
+    "requestBrochure": "Request brochure"
+  },
+  "brand": {
+    "tagline": "tiny home algarve"
+  },
+  "backToTop": "Top",
+  "hero": {
+    "title": "Architectural tiny homes for Portugal living.",
+    "lede": "A compact timber HOMIE for people who want a real small home near nature, not a disposable chalet.",
+    "primaryCta": "Configure your HOMIE",
+    "secondaryCta": "Download brochure",
+    "proof": ["Built near Lagos", "Timber-first mindset"]
+  },
+  "sections": {
+    "configure": {
+      "label": "Make it yours",
+      "title": "Configure your HOMIE.",
+      "lede": "Choose from a limited set of useful options so the product stays controlled and the buying process remains clear.",
+      "cta": "Start configuring"
+    },
+    "lifestyle": {
+      "label": "More space for what matters",
+      "title": "Live simply. Live better.",
+      "lede": "HOMIE is more than a small home. It is a smarter way to live with less impact, more freedom and fewer moving parts."
+    },
+    "comparison": {
+      "label": "Not a chalet",
+      "title": "A serious timber tiny home, not a temporary shortcut.",
+      "lede": "The first job of this site is to help buyers separate a real compact home from cheaper structures that may look similar in a render.",
+      "cta": "Check if HOMIE fits my situation"
+    },
+    "buyerPaths": {
+      "label": "Start from your situation",
+      "title": "Different buyers need different next steps.",
+      "lede": "A good first conversation depends on land status, access, services, and how you plan to use the HOMIE.",
+      "cta": "Get my next-step recommendation"
+    },
+    "locations": {
+      "label": "Realistic use cases",
+      "title": "One model, different Portugal lives.",
+      "lede": "See how HOMIE can support real buyer situations: part-time living, guest stays, work retreats and quiet year-round use.",
+      "noteLabel": "Illustrative client note"
+    },
+    "technology": {
+      "label": "Built different",
+      "title": "Engineered for comfort and longevity.",
+      "lede": "Advanced engineering, natural materials and precision manufacturing are the priorities. Final claims stay tied to verified documentation.",
+      "link": "See construction questions"
+    },
+    "process": {
+      "label": "How it works",
+      "title": "From idea to move-in ready.",
+      "lede": "A controlled path from interest to handover, without over-promising what depends on land, access or permissions."
+    },
+    "included": {
+      "label": "Scope clarity",
+      "title": "Know what is included before the quote becomes serious.",
+      "lede": "HOMIE should feel transparent before money is committed: product scope, site responsibilities and warranty position are separated from the start.",
+      "includedTitle": "Included in the HOMIE scope.",
+      "excludedTitle": "Confirmed separately.",
+      "warrantyTitle": "Warranty and aftercare.",
+      "warrantyNote": "Portuguese consumer warranty rules apply to the final contracted scope. Classification depends on whether the product is treated as movable goods, immovable property, or installed construction work."
+    },
+    "price": {
+      "label": "Transparent scoping",
+      "title": "Price depends on final scope.",
+      "lede": "We will not publish a made-up starting price. The brochure and enquiry flow are used to qualify model, options, location assumptions and budget range.",
+      "link": "Request budget guidance",
+      "asideTitle": "Every HOMIE conversation includes:"
+    },
+    "risks": {
+      "label": "Before you buy",
+      "title": "The honest questions save money later.",
+      "lede": "A tiny home project can still fail on access, groundworks, services, or permissions. We make those checks visible early.",
+      "cta": "Check my situation"
+    },
+    "scope": {
+      "label": "What affects budget",
+      "title": "A better price conversation starts with the variables.",
+      "lede": "Instead of a misleading low starting price, HOMIE qualifies the practical factors that change the final scope."
+    },
+    "quiz": {
+      "label": "Find your HOMIE",
+      "title": "Answer 3 quick questions and we will guide you.",
+      "lede": "It takes about 30 seconds. Your answers are saved locally in this test version until the API route is wired."
+    },
+    "trust": {
+      "label": "Built for the Atlantic life",
+      "title": "Designed for Portugal. Inspired by nature.",
+      "lede": "HOMIE is positioned for light, nature and indoor-outdoor living, while keeping claims grounded until they are documented.",
+      "quote": "The goal is a tiny home that feels serious, calm and materially honest.",
+      "cite": "HOMIE product direction"
+    },
+    "climate": {
+      "label": "Designed for Portugal conditions",
+      "title": "Comfort has to survive real sun, wind and damp evenings.",
+      "lede": "Portugal living is beautiful, but the building still needs to handle heat, coastal exposure, seasonal use and everyday comfort."
+    },
+    "faq": {
+      "label": "Practical questions",
+      "title": "FAQ for the first conversation."
+    }
+  },
+  "specs": [
+    ["01", "Approx. 27 m2", "Compact one-bedroom living."],
+    ["02", "Factory-built", "Controlled production before site planning."],
+    ["03", "Timber-built", "Material honesty over plastic chalet logic."],
+    ["04", "Delivered complete", "Kitchen, bathroom and core living functions."],
+    ["05", "Airtight mindset", "Comfort-led construction priorities."],
+    ["06", "Portugal-first", "Designed around local use cases."]
+  ],
+  "options": [
+    ["Exterior", "Facade and deck choices"],
+    ["Kitchen", "Compact daily living"],
+    ["Construction", "Timber and insulation logic"],
+    ["Terrace", "Outdoor room potential"]
+  ],
+  "configurator": {
+    "labels": {
+      "baseTitle": "Casco HOMIE shell",
+      "baseText": "The controlled timber shell: structure, cladding, insulation basis, windows, doors and prepared technical zones. Add only the modules you actually need.",
+      "presetsTitle": "Start with a scope",
+      "modulesTitle": "Add production-safe modules",
+      "summaryTitle": "Your indicative scope",
+      "selectedLabel": "Selected modules",
+      "noModules": "Casco shell only",
+      "scopeLabel": "Scope",
+      "marginLabel": "Categories",
+      "productionLabel": "Modules",
+      "save": "Save scope",
+      "saved": "Scope saved",
+      "cta": "Request this scope",
+      "levels": ["Casco only", "Casco plus", "Move-in ready direction"]
+    },
+    "presets": [
+      {
+        "id": "casco",
+        "title": "Casco only",
+        "text": "Empty shell for buyers who want maximum local fit-out control.",
+        "modules": []
+      },
+      {
+        "id": "essentials",
+        "title": "Essentials",
+        "text": "Kitchen, bathroom and technical basics.",
+        "modules": ["kitchen", "bathroom", "electrical", "climate"]
+      },
+      {
+        "id": "outdoor",
+        "title": "Outdoor living",
+        "text": "Deck, pergola and solar-ready preparation.",
+        "modules": ["deck", "pergola", "solar"]
+      },
+      {
+        "id": "ready",
+        "title": "Move-in ready",
+        "text": "The most complete controlled scope without changing the shell.",
+        "modules": ["kitchen", "bathroom", "interior", "electrical", "climate", "deck", "pergola", "solar"]
+      }
+    ],
+    "modules": [
+      {
+        "id": "kitchen",
+        "title": "Kitchen module",
+        "text": "Compact kitchen fit-out with controlled appliance and finish options.",
+        "category": "Interior",
+        "tag": "K"
+      },
+      {
+        "id": "bathroom",
+        "title": "Bathroom module",
+        "text": "Bathroom zone delivered as a repeatable package, not a custom layout.",
+        "category": "Interior",
+        "tag": "B"
+      },
+      {
+        "id": "interior",
+        "title": "Interior finish",
+        "text": "Wall, floor and trim finish so the shell becomes a calm living space.",
+        "category": "Finish",
+        "tag": "I"
+      },
+      {
+        "id": "electrical",
+        "title": "Electrical + lighting",
+        "text": "Sockets, switches and lighting plan kept within a controlled layout.",
+        "category": "Technical",
+        "tag": "E"
+      },
+      {
+        "id": "climate",
+        "title": "Heating / cooling",
+        "text": "Comfort package for daily use, seasonal heat and cooler evenings.",
+        "category": "Comfort",
+        "tag": "C"
+      },
+      {
+        "id": "deck",
+        "title": "Deck module",
+        "text": "A repeatable deck package that turns the tiny home into indoor-outdoor living.",
+        "category": "Outdoor",
+        "tag": "D"
+      },
+      {
+        "id": "pergola",
+        "title": "Pergola / shade",
+        "text": "Shade structure for Portuguese sun, offered as a controlled outdoor add-on.",
+        "category": "Outdoor",
+        "tag": "P"
+      },
+      {
+        "id": "solar",
+        "title": "Solar-ready prep",
+        "text": "Preparation for future solar discussion without promising off-grid performance.",
+        "category": "Energy",
+        "tag": "S"
+      }
+    ]
+  },
+  "benefits": [
+    ["Financial intelligence", "Lower complexity, clearer choices."],
+    ["Time freedom", "Less maintenance, more life."],
+    ["Healthy living", "Natural materials, better air focus."],
+    ["For now and later", "Built to last, made responsibly."]
+  ],
+  "comparison": {
+    "headers": {
+      "factor": "Question",
+      "chalet": "Cheap chalet",
+      "mobile": "Standard mobile home",
+      "homie": "HOMIE"
+    },
+    "rows": [
+      ["Core idea", "Fast shelter at lowest cost.", "Transportable living unit.", "Compact architectural timber home."],
+      ["Material logic", "Often plastic, thin panels or low-grade finishes.", "Mixed systems, often optimized for price.", "Timber-first, repairable, materially honest."],
+      ["Comfort priority", "Usually basic seasonal comfort.", "Depends heavily on specification.", "Insulation, airtightness and daily comfort are core questions."],
+      ["Buyer perception", "Can feel temporary or holiday-park oriented.", "Practical, but not always architectural.", "Designed to feel like a real small home."],
+      ["Customization", "Many cosmetic choices, less system clarity.", "Often package driven.", "Limited useful options to keep quality controlled."],
+      ["Risk handling", "Important exclusions can appear late.", "Transport and siting still need checking.", "Scope, land, access and responsibilities are separated early."]
+    ],
+    "proof": [
+      ["Limited options are a feature", "Fewer choices make quality, budget and handover easier to control."],
+      ["No fake promises", "Permits, foundations, access and final pricing stay separate until checked."]
+    ]
+  },
+  "buyerPaths": {
+    "items": [
+      ["I already own land", "Start with access, services, ground conditions and local constraints.", "Best next step: site-readiness check."],
+      ["I am looking for land", "Use HOMIE requirements to avoid buying a plot that creates delivery or permission problems.", "Best next step: land checklist."],
+      ["I own a villa", "A compact guest suite can add privacy without changing the main house.", "Best next step: guest-house fit review."],
+      ["I want rental potential", "Rental use needs legal, licensing, insurance and planning checks before income assumptions.", "Best next step: risk review before numbers."],
+      ["I live outside Portugal", "Remote buyers need clear responsibility split for delivery, local works and handover.", "Best next step: remote-buyer route."]
+    ]
+  },
+  "locationStories": [
+    {
+      "title": "For buyers with a coastal plot.",
+      "place": "Atlantic cliff plot",
+      "note": "A compact home that keeps the ocean, sky and outdoor living as the main luxury."
+    },
+    {
+      "title": "For rural landowners.",
+      "place": "Orange and olive orchard",
+      "note": "A proper timber guest house that sits quietly between trees, stone walls and existing land."
+    },
+    {
+      "title": "For villa owners needing extra space.",
+      "place": "Modern villa garden",
+      "note": "An independent suite for family or guests without changing the main house."
+    },
+    {
+      "title": "For buyers seeking privacy inland.",
+      "place": "Pine and cork oak retreat",
+      "note": "A shaded hideaway for slower days, focused work or a low-impact second base."
+    }
+  ],
+  "techLayers": ["Timber cladding", "Ventilated cavity", "Wood fibre insulation", "Vapour-open membrane", "Timber frame", "Interior finishes"],
+  "techProof": [
+    ["Insulation-first thinking", "Comfort and seasonal use are treated as core questions."],
+    ["Healthy indoor climate", "Material choices and ventilation need to support daily living."],
+    ["Structural clarity", "Scope, responsibilities and site assumptions are separated."]
+  ],
+  "process": [
+    ["1", "Configure", "Choose the model direction and useful options."],
+    ["2", "Receive quote", "Get a detailed and transparent proposal."],
+    ["3", "Site check", "Confirm access, services and readiness."],
+    ["4", "Build in factory", "Precision production in a controlled environment."],
+    ["5", "Delivery planning", "Agree responsibilities before the home moves."],
+    ["6", "Handover", "Receive the finished tiny home with clear scope."]
+  ],
+  "included": ["One-bedroom tiny home layout", "Kitchen and bathroom functions", "Interior and exterior finish scope", "Lighting, sockets and switches scope", "Controlled limited options", "Designed around Portugal buyer use cases"],
+  "excluded": ["Planning or permit guarantees", "Transport, crane or unloading assumptions", "Foundations, supports or groundworks", "Rental income promises", "Unverified energy-performance claims", "Open-ended custom building"],
+  "warranty": ["General legal guidance: movable goods have a 3-year guarantee.", "Where treated as immovable property, Portuguese law may provide 5 years generally and 10 years for structural construction elements.", "Final warranty period, exclusions, maintenance duties and handover documents must be confirmed in the contract."],
+  "priceBullets": ["Use case and location check", "Model and option review", "Included and excluded scope", "Next-step recommendation"],
+  "scopeFactors": [
+    ["Land and access", "Narrow roads, slopes, crane access and unloading space can change feasibility and cost."],
+    ["Foundations and supports", "Groundworks are site-specific and should not be hidden inside a vague house price."],
+    ["Utility connections", "Water, wastewater, power and internet assumptions need to be separated from the home itself."],
+    ["Finish and options", "Exterior, kitchen, terrace and energy choices should be limited enough to stay controllable."],
+    ["Transport and handover", "Delivery route, timing and responsibility split need confirmation before commitment."],
+    ["Permissions and use", "Residential, guest, work or rental use can change what needs to be checked locally."]
+  ],
+  "riskChecks": [
+    ["Can it reach the site?", "Delivery access is often the first real constraint, especially in rural or hillside locations."],
+    ["Who handles foundations?", "Supports and groundworks must be clearly scoped before the house is produced."],
+    ["What permissions apply?", "No page should promise installation or rental use without local checks."],
+    ["How will it perform in summer?", "Shade, orientation, ventilation and insulation strategy matter in Portuguese summer heat."],
+    ["What is excluded?", "Transport, crane, services and landscaping assumptions need to be visible, not discovered late."],
+    ["What is documented?", "Engineering, energy and material claims should be backed by proper product documentation."]
+  ],
+  "climatePoints": [
+    ["Summer heat", "Orientation, shading, ventilation and insulation have to work together."],
+    ["Coastal exposure", "Materials and exterior detailing need to suit sun, wind and saltier air."],
+    ["Seasonal use", "A home that sits empty part of the year still needs moisture and comfort thinking."],
+    ["Outdoor living", "Deck, glazing and threshold details should make outside space feel like part of the home."]
+  ],
+  "faq": [
+    ["Can I customise the tiny home?", "Yes, but the first offer is intentionally limited. The goal is a controlled product, not an open-ended custom build."],
+    ["Can this be installed anywhere in Portugal?", "Location, access, land conditions, services, and permissions need to be checked before any commitment. Algarve enquiries are the first launch focus."],
+    ["Are prices final?", "No final pricing claim is made on this page. Budget ranges are used to qualify the enquiry."],
+    ["What makes HOMIE different from a cheap chalet?", "HOMIE is positioned around timber construction, airtightness, insulation priorities, useful built-in functions, and a controlled options process."],
+    ["Do I need land before contacting you?", "No, but land status changes the conversation. If you already have land, access, services, and local constraints can be checked earlier."],
+    ["Can HOMIE be used as a rental unit?", "Possible rental use needs separate legal, planning, licensing, insurance, and financial checks. This page does not promise rental income."],
+    ["What is included in the first model?", "The first model is based on one bedroom, kitchen, bathroom, and compact living functions. Final inclusions should be confirmed in the brochure and scope."],
+    ["Can I order outside Portugal?", "Secondary enquiries outside Portugal can be qualified, but logistics, compliance, delivery, and local requirements need checking before any commitment."]
+  ],
+  "quiz": {
+    "q1": "What would you use HOMIE for?",
+    "q2": "Which style attracts you most?",
+    "q3": "What is your budget range?",
+    "name": "Name",
+    "email": "Email",
+    "country": "Location / country",
+    "consent": "I agree to be contacted about HOMIE tiny homes and understand this is a local test form.",
+    "submit": "See my recommendation",
+    "success": "Thank you. Your enquiry was accepted by the prototype API.",
+    "error": "Please check your email address and try again.",
+    "prototype": "Thank you. This prototype saved your enquiry locally. Backend wiring comes next.",
+    "useCases": ["Part-time living", "Full-time living", "Guest house", "Work retreat"],
+    "styles": ["Natural timber", "Modern dark", "Warm minimal"],
+    "budgets": ["Under 50k", "50k - 75k", "75k - 100k", "100k+"]
+  },
+  "footer": {
+    "description": "Architectural timber tiny homes designed for Portugal living.",
+    "address": "Lagos / Algarve, Portugal - service details to confirm before launch",
+    "explore": "Explore",
+    "company": "Company",
+    "stay": "Stay in the loop",
+    "stayText": "New projects, ideas and updates.",
+    "emailPlaceholder": "Your email",
+    "copyright": "© 2026 HOMIE. All rights reserved. Legal identity details to confirm before launch.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "links": ["About", "Sustainability", "Contact", "Google Maps"]
+  },
+  "legal": {
+    "notice": "Identity, email, address, socials, and legal text must be confirmed before launch."
+  }
+}

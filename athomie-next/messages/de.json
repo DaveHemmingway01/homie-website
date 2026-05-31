@@ -1,0 +1,366 @@
+{
+  "nav": {
+    "models": "Modelle",
+    "configurator": "Konfigurator",
+    "technology": "Technologie",
+    "process": "Prozess",
+    "faq": "FAQ",
+    "requestBrochure": "Broschure anfragen"
+  },
+  "brand": {
+    "tagline": "tiny home algarve"
+  },
+  "backToTop": "Top",
+  "hero": {
+    "title": "Architektonische Tiny Homes fur das Leben in Portugal.",
+    "lede": "Ein kompaktes HOMIE aus Holz fur Menschen, die ein echtes kleines Zuhause nahe der Natur wollen, kein Wegwerf-Chalet.",
+    "primaryCta": "HOMIE konfigurieren",
+    "secondaryCta": "Broschure herunterladen",
+    "proof": ["Gebaut nahe Lagos", "Holz-first Denkweise"]
+  },
+  "sections": {
+    "configure": {
+      "label": "Machen Sie es zu Ihrem",
+      "title": "Konfigurieren Sie Ihr HOMIE.",
+      "lede": "Wahlen Sie aus einer begrenzten Anzahl sinnvoller Optionen, damit Produkt und Kaufprozess klar bleiben.",
+      "cta": "Konfiguration starten"
+    },
+    "lifestyle": {
+      "label": "Mehr Raum fuer das Wesentliche",
+      "title": "Einfacher leben. Besser leben.",
+      "lede": "HOMIE ist mehr als ein kleines Haus. Es ist eine intelligentere Art zu leben: weniger Komplexitat, mehr Freiheit."
+    },
+    "comparison": {
+      "label": "Kein Chalet",
+      "title": "Ein serioeses Tiny Home aus Holz, kein temporaerer Kurzweg.",
+      "lede": "Die Seite muss Kaeufern helfen, ein echtes kompaktes Zuhause von guenstigeren Strukturen zu unterscheiden, die im Rendering aehnlich wirken.",
+      "cta": "Pruefen, ob HOMIE zu meiner Situation passt"
+    },
+    "buyerPaths": {
+      "label": "Aus Ihrer Situation starten",
+      "title": "Unterschiedliche Kaeufer brauchen unterschiedliche naechste Schritte.",
+      "lede": "Ein gutes Erstgespraech haengt von Grundstueck, Zugang, Versorgung und geplanter Nutzung der HOMIE ab.",
+      "cta": "Meine naechste Empfehlung erhalten"
+    },
+    "locations": {
+      "label": "Realistische Nutzungsszenarien",
+      "title": "Ein Modell, verschiedene Leben in Portugal.",
+      "lede": "Sehen Sie, wie HOMIE reale Kaufsituationen unterstuetzen kann: Teilzeitwohnen, Gaestehaus, Arbeitsretreat und ruhige ganzjaehrige Nutzung.",
+      "noteLabel": "Illustrative Kundennotiz"
+    },
+    "technology": {
+      "label": "Anders gebaut",
+      "title": "Entwickelt fur Komfort und Langlebigkeit.",
+      "lede": "Durchdachte Technik, natuerliche Materialien und kontrollierte Fertigung stehen im Mittelpunkt. Endgueltige Aussagen bleiben an verifizierbare Dokumentation gebunden.",
+      "link": "Baufragen ansehen"
+    },
+    "process": {
+      "label": "So funktioniert es",
+      "title": "Von der Idee bis einzugsbereit.",
+      "lede": "Ein kontrollierter Weg vom Interesse bis zur Uebergabe, ohne zu viel ueber Themen zu versprechen, die von Grundstueck, Zugang oder Genehmigungen abhaengen."
+    },
+    "included": {
+      "label": "Umfangsklarheit",
+      "title": "Klar wissen, was enthalten ist, bevor das Angebot ernst wird.",
+      "lede": "HOMIE soll transparent sein, bevor Geld gebunden wird: Produktumfang, Standortverantwortung und Garantieposition werden von Anfang an getrennt.",
+      "includedTitle": "Im HOMIE Umfang enthalten.",
+      "excludedTitle": "Separat zu bestaetigen.",
+      "warrantyTitle": "Garantie und Nachbetreuung.",
+      "warrantyNote": "Portugiesische Verbraucher-Garantieregeln gelten fuer den final vertraglich vereinbarten Umfang. Die Einordnung haengt davon ab, ob das Produkt als bewegliche Ware, unbewegliche Immobilie oder installierte Bauleistung behandelt wird."
+    },
+    "price": {
+      "label": "Transparenter Umfang",
+      "title": "Der Preis hangt vom finalen Umfang ab.",
+      "lede": "Wir veroeffentlichen keinen erfundenen Einstiegspreis. Broschuere und Anfrageprozess qualifizieren Modell, Optionen, Standortannahmen und Budgetrahmen.",
+      "link": "Budgeteinschaetzung anfragen",
+      "asideTitle": "Jedes HOMIE Gespraech enthaelt:"
+    },
+    "risks": {
+      "label": "Vor dem Kauf",
+      "title": "Ehrliche Fragen sparen spaeter Geld.",
+      "lede": "Ein Tiny-Home-Projekt kann an Zugang, Erdarbeiten, Versorgung oder Genehmigungen scheitern. Diese Checks machen wir frueh sichtbar.",
+      "cta": "Meine Situation pruefen"
+    },
+    "scope": {
+      "label": "Was das Budget beeinflusst",
+      "title": "Ein besseres Preisgespraech beginnt mit den Variablen.",
+      "lede": "Statt eines irrefuehrenden niedrigen Einstiegspreises qualifiziert HOMIE die praktischen Faktoren, die den finalen Umfang veraendern."
+    },
+    "quiz": {
+      "label": "Finden Sie Ihr HOMIE",
+      "title": "Beantworten Sie 3 kurze Fragen und wir fuhren Sie weiter.",
+      "lede": "Es dauert etwa 30 Sekunden. In dieser Testversion werden Ihre Antworten lokal gespeichert, bis die API verbunden ist."
+    },
+    "trust": {
+      "label": "Gebaut fuer das Atlantikleben",
+      "title": "Fur Portugal entworfen. Von der Natur inspiriert.",
+      "lede": "HOMIE ist fuer Licht, Natur und Indoor-Outdoor-Leben positioniert, waehrend Aussagen bodenstaendig bleiben, bis sie dokumentiert sind.",
+      "quote": "Das Ziel ist ein Tiny Home, das serioes, ruhig und materialehrlich wirkt.",
+      "cite": "HOMIE Produktausrichtung"
+    },
+    "climate": {
+      "label": "Fuer Portugal-Bedingungen entworfen",
+      "title": "Komfort muss echte Sonne, Wind und feuchte Abende aushalten.",
+      "lede": "Leben in Portugal ist schoen, aber das Haus muss Hitze, Kuesteneinfluss, saisonale Nutzung und Alltagskomfort bewaeltigen."
+    },
+    "faq": {
+      "label": "Praktische Fragen",
+      "title": "FAQ fur das erste Gesprach."
+    }
+  },
+  "specs": [
+    ["01", "Ca. 27 m2", "Kompaktes Wohnen mit einem Schlafzimmer."],
+    ["02", "In der Fabrik gebaut", "Kontrollierte Produktion vor der Standortplanung."],
+    ["03", "Holzbasiert", "Materialehrlichkeit statt Wegwerf-Chalet-Logik."],
+    ["04", "Komplett geliefert", "Kueche, Bad und zentrale Wohnfunktionen."],
+    ["05", "Luftdicht gedacht", "Komfortorientierte Bauprioritaeten."],
+    ["06", "Portugal-first", "Entworfen fuer lokale Nutzungsszenarien."]
+  ],
+  "options": [
+    ["Exterieur", "Fassaden- und Deckoptionen"],
+    ["Kueche", "Kompakter Alltag"],
+    ["Konstruktion", "Holz- und Isolationslogik"],
+    ["Terrasse", "Potenzial als Aussenraum"]
+  ],
+  "configurator": {
+    "labels": {
+      "baseTitle": "Casco HOMIE Shell",
+      "baseText": "Die kontrollierte Holz-Shell: Struktur, Verkleidung, Daemmbasis, Fenster, Tueren und vorbereitete Technikzonen. Fuegen Sie nur Module hinzu, die Sie wirklich brauchen.",
+      "presetsTitle": "Mit einem Umfang starten",
+      "modulesTitle": "Produktionssichere Module hinzufuegen",
+      "summaryTitle": "Ihr indikativer Umfang",
+      "selectedLabel": "Ausgewaehlte Module",
+      "noModules": "Nur Casco Shell",
+      "scopeLabel": "Umfang",
+      "marginLabel": "Kategorien",
+      "productionLabel": "Module",
+      "save": "Umfang speichern",
+      "saved": "Umfang gespeichert",
+      "cta": "Diesen Umfang anfragen",
+      "levels": ["Nur Casco", "Casco plus", "Richtung einzugsbereit"]
+    },
+    "presets": [
+      {
+        "id": "casco",
+        "title": "Nur Casco",
+        "text": "Leere Shell fuer Kaeufer, die den lokalen Ausbau kontrollieren wollen.",
+        "modules": []
+      },
+      {
+        "id": "essentials",
+        "title": "Essentials",
+        "text": "Kueche, Bad und technische Basis.",
+        "modules": ["kitchen", "bathroom", "electrical", "climate"]
+      },
+      {
+        "id": "outdoor",
+        "title": "Outdoor Living",
+        "text": "Deck, Pergola und Solar-ready Vorbereitung.",
+        "modules": ["deck", "pergola", "solar"]
+      },
+      {
+        "id": "ready",
+        "title": "Einzugsbereit",
+        "text": "Der kompletteste kontrollierte Umfang ohne Shell-Aenderung.",
+        "modules": ["kitchen", "bathroom", "interior", "electrical", "climate", "deck", "pergola", "solar"]
+      }
+    ],
+    "modules": [
+      {
+        "id": "kitchen",
+        "title": "Kuechenmodul",
+        "text": "Kompakter Kuechenausbau mit kontrollierten Geraete- und Finishoptionen.",
+        "category": "Interieur",
+        "tag": "K"
+      },
+      {
+        "id": "bathroom",
+        "title": "Badmodul",
+        "text": "Badzone als wiederholbares Paket, nicht als Sondergrundriss.",
+        "category": "Interieur",
+        "tag": "B"
+      },
+      {
+        "id": "interior",
+        "title": "Innenausbau",
+        "text": "Wand, Boden und Leisten, damit die Shell zum ruhigen Wohnraum wird.",
+        "category": "Finish",
+        "tag": "I"
+      },
+      {
+        "id": "electrical",
+        "title": "Elektro + Licht",
+        "text": "Steckdosen, Schalter und Lichtplan innerhalb eines kontrollierten Layouts.",
+        "category": "Technik",
+        "tag": "E"
+      },
+      {
+        "id": "climate",
+        "title": "Heizen / Kuehlen",
+        "text": "Komfortpaket fuer Alltag, Sommerhitze und kuehlere Abende.",
+        "category": "Komfort",
+        "tag": "C"
+      },
+      {
+        "id": "deck",
+        "title": "Deckmodul",
+        "text": "Wiederholbares Deckpaket fuer Indoor-Outdoor-Leben.",
+        "category": "Aussen",
+        "tag": "D"
+      },
+      {
+        "id": "pergola",
+        "title": "Pergola / Schatten",
+        "text": "Schattenstruktur fuer portugiesische Sonne als kontrolliertes Add-on.",
+        "category": "Aussen",
+        "tag": "P"
+      },
+      {
+        "id": "solar",
+        "title": "Solar-ready Prep",
+        "text": "Vorbereitung fuer spaetere Solarpruefung ohne Off-grid-Versprechen.",
+        "category": "Energie",
+        "tag": "S"
+      }
+    ]
+  },
+  "benefits": [
+    ["Finanzielle Intelligenz", "Weniger Komplexitaet, klarere Entscheidungen."],
+    ["Zeitfreiheit", "Weniger Wartung, mehr Leben."],
+    ["Gesundes Wohnen", "Natuerliche Materialien, Fokus auf bessere Luft."],
+    ["Fuer heute und spaeter", "Langlebig gebaut, verantwortungsvoll gemacht."]
+  ],
+  "comparison": {
+    "headers": {
+      "factor": "Frage",
+      "chalet": "Billiges Chalet",
+      "mobile": "Standard-Mobile-Home",
+      "homie": "HOMIE"
+    },
+    "rows": [
+      ["Kernidee", "Schneller Schutz zum niedrigsten Preis.", "Transportable Wohneinheit.", "Kompaktes architektonisches Holzhaus."],
+      ["Materiallogik", "Oft Kunststoff, duenne Paneele oder einfache Oberflaechen.", "Gemischte Systeme, oft preisoptimiert.", "Holz-first, reparierbar und materialehrlich."],
+      ["Komfort", "Meist einfacher saisonaler Komfort.", "Stark von der Spezifikation abhaengig.", "Daemmung, Luftdichtheit und Alltagskomfort sind Kernfragen."],
+      ["Wahrnehmung", "Kann temporaer oder wie Ferienpark wirken.", "Praktisch, aber nicht immer architektonisch.", "Soll sich wie ein echtes kleines Zuhause anfuehlen."],
+      ["Anpassung", "Viele kosmetische Optionen, weniger Systemklarheit.", "Oft paketgetrieben.", "Begrenzte sinnvolle Optionen fuer kontrollierte Qualitaet."],
+      ["Risikoumgang", "Wichtige Ausschluesse koennen spaet auftauchen.", "Transport und Aufstellung brauchen weiter Pruefung.", "Umfang, Land, Zugang und Verantwortung werden frueh getrennt."]
+    ],
+    "proof": [
+      ["Begrenzte Optionen sind ein Vorteil", "Weniger Auswahl macht Qualitaet, Budget und Uebergabe besser kontrollierbar."],
+      ["Keine falschen Versprechen", "Genehmigungen, Fundamente, Zugang und finaler Preis bleiben getrennt, bis sie geprueft sind."]
+    ]
+  },
+  "buyerPaths": {
+    "items": [
+      ["Ich habe bereits Land", "Starten Sie mit Zugang, Versorgung, Bodenbedingungen und lokalen Grenzen.", "Naechster Schritt: Standortbereitschaft pruefen."],
+      ["Ich suche noch Land", "Nutzen Sie HOMIE-Anforderungen, um ein Grundstueck mit Liefer- oder Genehmigungsproblemen zu vermeiden.", "Naechster Schritt: Grundstuecks-Checkliste."],
+      ["Ich besitze eine Villa", "Eine kompakte Gaestesuite kann Privatsphaere schaffen, ohne das Haupthaus zu veraendern.", "Naechster Schritt: Gaestehaus-Fit pruefen."],
+      ["Ich will Vermietungspotenzial", "Vermietung braucht rechtliche, lizenzbezogene, Versicherungs- und Planungschecks vor Ertragsannahmen.", "Naechster Schritt: Risikopruefung."],
+      ["Ich lebe ausserhalb Portugals", "Remote-Kaeufer brauchen klare Verantwortlichkeiten fuer Lieferung, lokale Arbeiten und Uebergabe.", "Naechster Schritt: Remote-Kaeufer-Route."]
+    ]
+  },
+  "locationStories": [
+    {
+      "title": "Fuer Kaeufer mit Kuestengrundstueck.",
+      "place": "Atlantik-Kliffgrundstueck",
+      "note": "Ein kompaktes Zuhause, bei dem Meer, Himmel und Leben im Freien der eigentliche Luxus bleiben."
+    },
+    {
+      "title": "Fuer laendliche Grundbesitzer.",
+      "place": "Orangen- und Olivenhain",
+      "note": "Ein echtes Gaestehaus aus Holz, das ruhig zwischen Baeumen, Steinmauern und bestehendem Land steht."
+    },
+    {
+      "title": "Fuer Villenbesitzer mit Platzbedarf.",
+      "place": "Moderner Villengarten",
+      "note": "Eine unabhaengige Suite fuer Familie oder Gaeste, ohne das Haupthaus zu veraendern."
+    },
+    {
+      "title": "Fuer Kaeufer, die Privatsphaere im Inland suchen.",
+      "place": "Pinien- und Korkeichen-Retreat",
+      "note": "Ein schattiger Rueckzugsort fuer langsamere Tage, konzentriertes Arbeiten oder eine zweite Basis mit wenig Impact."
+    }
+  ],
+  "techLayers": ["Holzverkleidung", "Belueftete Ebene", "Holzfaserdaemmung", "Diffusionsoffene Membran", "Holzrahmen", "Innenausbau"],
+  "techProof": [
+    ["Daemmung zuerst", "Komfort und saisonale Nutzung werden als Kernfragen behandelt."],
+    ["Gesundes Innenklima", "Materialien und Lueftung muessen den Alltag unterstuetzen."],
+    ["Strukturelle Klarheit", "Umfang, Verantwortlichkeiten und Standortannahmen werden getrennt."]
+  ],
+  "process": [
+    ["1", "Konfigurieren", "Modellrichtung und sinnvolle Optionen waehlen."],
+    ["2", "Angebot erhalten", "Ein detailliertes und transparentes Angebot erhalten."],
+    ["3", "Standortcheck", "Zugang, Versorgung und Bereitschaft pruefen."],
+    ["4", "Fertigung", "Praezisionsproduktion in kontrollierter Umgebung."],
+    ["5", "Lieferplanung", "Verantwortlichkeiten vor dem Transport klaeren."],
+    ["6", "Uebergabe", "Das fertige Tiny Home mit klarem Umfang erhalten."]
+  ],
+  "included": ["Tiny Home Grundriss mit einem Schlafzimmer", "Kuechen- und Badfunktionen", "Umfang fuer Innen- und Aussenfinish", "Umfang fuer Licht, Steckdosen und Schalter", "Kontrollierte begrenzte Optionen", "Entworfen fuer Kaeuferfaelle in Portugal"],
+  "excluded": ["Garantien fuer Planung oder Genehmigungen", "Annahmen zu Transport, Kran oder Entladung", "Fundamente, Auflager oder Erdarbeiten", "Versprechen zu Mieteinnahmen", "Nicht verifizierte Energieclaims", "Offener Sonderbau ohne klare Grenzen"],
+  "warranty": ["Allgemeine rechtliche Orientierung: bewegliche Waren haben 3 Jahre Gewaehrleistung.", "Wenn als unbewegliche Immobilie behandelt, kann portugiesisches Recht 5 Jahre allgemein und 10 Jahre fuer strukturelle Bauelemente vorsehen.", "Finale Garantiezeit, Ausschluesse, Wartungspflichten und Uebergabedokumente werden im Vertrag bestaetigt."],
+  "priceBullets": ["Nutzung und Standort pruefen", "Modell und Optionen bewerten", "Enthaltenen und ausgeschlossenen Umfang klaeren", "Empfehlung fuer den naechsten Schritt"],
+  "scopeFactors": [
+    ["Land und Zugang", "Enge Strassen, Hanglage, Kran-Zugang und Entladeflaeche koennen Machbarkeit und Kosten veraendern."],
+    ["Fundamente und Auflager", "Erdarbeiten sind standortspezifisch und sollten nicht in einem vagen Hauspreis versteckt sein."],
+    ["Anschluesse", "Wasser, Abwasser, Strom und Internet muessen getrennt vom Haus betrachtet werden."],
+    ["Finish und Optionen", "Exterieur, Kueche, Terrasse und Energieoptionen muessen kontrollierbar bleiben."],
+    ["Transport und Uebergabe", "Route, Timing und Verantwortlichkeiten brauchen vor Zusage Bestaetigung."],
+    ["Genehmigungen und Nutzung", "Wohnen, Gaeste, Arbeit oder Vermietung koennen lokale Checks veraendern."]
+  ],
+  "riskChecks": [
+    ["Erreicht das Haus den Standort?", "Lieferzugang ist oft die erste echte Grenze, besonders in laendlichen oder hangigen Lagen."],
+    ["Wer macht die Fundamente?", "Auflager und Erdarbeiten muessen vor Produktion klar sein."],
+    ["Welche Genehmigungen gelten?", "Keine Seite sollte Installation oder Vermietung ohne lokale Checks versprechen."],
+    ["Wie funktioniert es im Sommer?", "Schatten, Ausrichtung, Lueftung und Daemmung sind in portugiesischer Sommerhitze wichtig."],
+    ["Was ist ausgeschlossen?", "Transport, Kran, Versorgung und Landschaftsarbeiten muessen frueh sichtbar sein."],
+    ["Was ist dokumentiert?", "Engineering-, Energie- und Materialclaims brauchen Dokumentation."]
+  ],
+  "climatePoints": [
+    ["Sommerhitze", "Ausrichtung, Schatten, Lueftung und Daemmung muessen zusammenspielen."],
+    ["Kuesteneinfluss", "Materialien und Aussendetails muessen Sonne, Wind und salzigere Luft beruecksichtigen."],
+    ["Saisonale Nutzung", "Ein Haus, das zeitweise leer steht, braucht Feuchte- und Komfortdenken."],
+    ["Outdoor-Leben", "Deck, Glas und Schwellen sollten Aussenraum zum Teil des Hauses machen."]
+  ],
+  "faq": [
+    ["Kann ich das Tiny Home anpassen?", "Ja, aber das erste Angebot ist bewusst begrenzt. Ziel ist ein kontrolliertes Produkt, kein offener Sonderbau."],
+    ["Kann es ueberall in Portugal installiert werden?", "Standort, Zugang, Bodenbedingungen, Versorgung und Genehmigungen muessen vor jeder Zusage geprueft werden. Algarve-Anfragen sind der erste Launch-Fokus."],
+    ["Sind die Preise final?", "Diese Seite macht keine finale Preisaussage. Budgetrahmen dienen dazu, die Anfrage zu qualifizieren."],
+    ["Was unterscheidet HOMIE von einem billigen Chalet?", "HOMIE ist auf Holzbau, Luftdichtheit, Isolationsprioritaeten, sinnvolle Einbaufunktionen und einen kontrollierten Optionsprozess ausgerichtet."],
+    ["Brauche ich Grundstueck, bevor ich Kontakt aufnehme?", "Nein, aber der Grundstuecksstatus veraendert das Gespraech. Bei vorhandenem Land koennen Zugang, Versorgung und lokale Grenzen frueher geprueft werden."],
+    ["Kann HOMIE als Vermietungseinheit genutzt werden?", "Moegliche Vermietung erfordert separate rechtliche, planerische, lizenzbezogene, versicherungstechnische und finanzielle Pruefungen. Diese Seite verspricht keine Mieteinnahmen."],
+    ["Was ist im ersten Modell enthalten?", "Das erste Modell basiert auf einem Schlafzimmer, Kueche, Bad und kompakten Wohnfunktionen. Finale Inhalte sollten in Broschuere und Umfang bestaetigt werden."],
+    ["Kann ich ausserhalb Portugals bestellen?", "Anfragen ausserhalb Portugals koennen qualifiziert werden, aber Logistik, Compliance, Lieferung und lokale Anforderungen muessen vorher geprueft werden."]
+  ],
+  "quiz": {
+    "q1": "Wofuer wuerden Sie HOMIE nutzen?",
+    "q2": "Welcher Stil spricht Sie am meisten an?",
+    "q3": "Wie gross ist Ihr Budgetrahmen?",
+    "name": "Name",
+    "email": "Email",
+    "country": "Standort / Land",
+    "consent": "Ich stimme zu, von HOMIE zu Tiny Homes kontaktiert zu werden, und verstehe, dass dies ein lokales Testformular ist.",
+    "submit": "Meine Empfehlung anzeigen",
+    "success": "Danke. Ihre Anfrage wurde von der Prototyp-API angenommen.",
+    "error": "Bitte pruefen Sie Ihre E-Mail-Adresse und versuchen Sie es erneut.",
+    "prototype": "Danke. Dieser Prototyp hat Ihre Anfrage lokal gespeichert. Die Backend-Anbindung folgt spaeter.",
+    "useCases": ["Teilzeitwohnen", "Ganzjaehriges Wohnen", "Gaestehaus", "Arbeitsretreat"],
+    "styles": ["Natuerliches Holz", "Modern dunkel", "Warm minimal"],
+    "budgets": ["Unter 50k", "50k - 75k", "75k - 100k", "100k+"]
+  },
+  "footer": {
+    "description": "Architektonische Tiny Homes fuer das Leben in Portugal.",
+    "address": "Lagos / Algarve, Portugal - Servicedetails vor Launch zu bestaetigen",
+    "explore": "Entdecken",
+    "company": "Unternehmen",
+    "stay": "Auf dem Laufenden bleiben",
+    "stayText": "Neue Projekte, Ideen und Updates.",
+    "emailPlaceholder": "Ihre E-Mail",
+    "copyright": "© 2026 HOMIE. Alle Rechte vorbehalten. Identitaetsdetails vor Launch zu bestaetigen.",
+    "privacy": "Datenschutz",
+    "terms": "Bedingungen",
+    "links": ["Ueber HOMIE", "Nachhaltigkeit", "Kontakt", "Google Maps"]
+  },
+  "legal": {
+    "notice": "Identity, email, address, socials, and legal text must be confirmed before launch."
+  }
+}

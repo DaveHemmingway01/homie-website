@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="front" x1="12" x2="52" y1="10" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d99a3d"/>
+      <stop offset="0.42" stop-color="#8c5944"/>
+      <stop offset="1" stop-color="#463a34"/>
+    </linearGradient>
+    <linearGradient id="side" x1="18" x2="54" y1="8" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff1cf"/>
+      <stop offset="1" stop-color="#437f8a"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#241c18" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <style>
+    #turner {
+      animation: turn 2.8s cubic-bezier(.4,0,.2,1) infinite;
+      transform-origin: 32px 32px;
+    }
+
+    @keyframes turn {
+      0%, 100% {
+        transform: perspective(80px) rotateY(-28deg);
+      }
+      50% {
+        transform: perspective(80px) rotateY(28deg);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      #turner {
+        animation: none;
+      }
+    }
+  </style>
+
+  <rect width="64" height="64" rx="12" fill="#f2f4f2"/>
+  <g id="turner" filter="url(#shadow)">
+    <path d="M18 12h8l4 4v13h14V12h8l4 4v38h-8l-4-4V37H30v17h-8l-4-4V12Z" fill="url(#side)" opacity="0.9"/>
+    <path d="M14 10h10v18h16V10h10v44H40V36H24v18H14V10Z" fill="url(#front)"/>
+    <path d="M24 10l6 5v13h-6V10Zm26 0l6 5v39h-6V10Zm-10 26l6 5H30l-6-5h16Z" fill="#fff1cf" opacity="0.28"/>
+    <path d="M14 10h10v18h16V10h10" fill="none" stroke="#fff7e8" stroke-width="2.4" stroke-linecap="round" opacity="0.65"/>
+  </g>
+</svg>

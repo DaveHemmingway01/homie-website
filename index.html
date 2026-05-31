@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tiny home algarve tutorial</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Tutorial navigation">
+        <div class="brand-lockup">
+          <div class="brand-mark" aria-hidden="true">th</div>
+          <div>
+            <p class="brand-name">tiny home algarve</p>
+            <p class="brand-domain">www.athomie.pt</p>
+          </div>
+        </div>
+
+        <div class="progress-block">
+          <div class="progress-line">
+            <span>Build progress</span>
+            <strong id="progressPercent">0%</strong>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div id="progressFill" class="progress-fill"></div>
+          </div>
+        </div>
+
+        <nav id="stepNav" class="step-nav"></nav>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="workspace-label">Interactive build tutorial</p>
+            <h1>Build the lead-generation website for tiny home algarve</h1>
+          </div>
+          <div class="topbar-actions">
+            <button id="resetProgress" class="ghost-button" type="button">Reset</button>
+            <button id="copyCurrentPromptTop" class="primary-button" type="button">Copy current prompt</button>
+          </div>
+        </header>
+
+        <section class="step-hero" aria-labelledby="stepTitle">
+          <div class="step-meta">
+            <span id="stepPart"></span>
+            <span id="stepCount"></span>
+          </div>
+          <h2 id="stepTitle"></h2>
+          <p id="stepSummary" class="step-summary"></p>
+        </section>
+
+        <div class="content-grid">
+          <section class="main-panel">
+            <div class="tab-list" role="tablist" aria-label="Step content">
+              <button class="tab-button active" type="button" data-tab="learn">Learn</button>
+              <button class="tab-button" type="button" data-tab="do">Do</button>
+              <button class="tab-button" type="button" data-tab="verify">Verify</button>
+            </div>
+
+            <div id="learnPanel" class="tab-panel active" role="tabpanel"></div>
+            <div id="doPanel" class="tab-panel" role="tabpanel"></div>
+            <div id="verifyPanel" class="tab-panel" role="tabpanel"></div>
+          </section>
+
+          <aside class="right-rail" aria-label="Current step tools">
+            <section class="rail-panel">
+              <p class="rail-label">Current outcome</p>
+              <h3 id="stepOutcome"></h3>
+              <p id="stepRisk"></p>
+            </section>
+
+            <section class="rail-panel">
+              <div class="rail-heading">
+                <p class="rail-label">Checklist</p>
+                <span id="checklistCount"></span>
+              </div>
+              <div id="checklist" class="checklist"></div>
+            </section>
+
+            <section class="rail-panel">
+              <p class="rail-label">Codex prompt</p>
+              <pre id="promptBlock" class="prompt-block"></pre>
+              <button id="copyCurrentPrompt" class="primary-button full" type="button">Copy prompt</button>
+            </section>
+          </aside>
+        </div>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>

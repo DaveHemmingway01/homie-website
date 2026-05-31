@@ -1,0 +1,366 @@
+{
+  "nav": {
+    "models": "Modellen",
+    "configurator": "Configurator",
+    "technology": "Technologie",
+    "process": "Proces",
+    "faq": "FAQ",
+    "requestBrochure": "Brochure aanvragen"
+  },
+  "brand": {
+    "tagline": "tiny home algarve"
+  },
+  "backToTop": "Top",
+  "hero": {
+    "title": "Architectonische tiny homes voor wonen in Portugal.",
+    "lede": "Een compacte houten HOMIE voor mensen die een echt klein huis bij de natuur willen, geen wegwerp-chalet.",
+    "primaryCta": "Configureer je HOMIE",
+    "secondaryCta": "Download brochure",
+    "proof": ["Gebouwd bij Lagos", "Hout-first denkwijze"]
+  },
+  "sections": {
+    "configure": {
+      "label": "Maak het eigen",
+      "title": "Configureer je HOMIE.",
+      "lede": "Kies uit een beperkte set nuttige opties zodat het product beheersbaar blijft en het koopproces helder is.",
+      "cta": "Start configureren"
+    },
+    "lifestyle": {
+      "label": "Meer ruimte voor wat telt",
+      "title": "Leef eenvoudiger. Leef beter.",
+      "lede": "HOMIE is meer dan een klein huis. Het is een slimmere manier van wonen met minder impact, meer vrijheid en minder gedoe."
+    },
+    "comparison": {
+      "label": "Geen chalet",
+      "title": "Een serieuze houten tiny home, geen tijdelijke shortcut.",
+      "lede": "De site moet kopers helpen een echte compacte woning te onderscheiden van goedkopere structuren die in een render op elkaar lijken.",
+      "cta": "Check of HOMIE bij mijn situatie past"
+    },
+    "buyerPaths": {
+      "label": "Begin bij jouw situatie",
+      "title": "Verschillende kopers hebben verschillende vervolgstappen.",
+      "lede": "Een goed eerste gesprek hangt af van grondstatus, toegang, voorzieningen en hoe je de HOMIE wilt gebruiken.",
+      "cta": "Krijg mijn vervolgstap"
+    },
+    "locations": {
+      "label": "Realistische gebruikssituaties",
+      "title": "Een model, verschillende levens in Portugal.",
+      "lede": "Zie hoe HOMIE verschillende kopersituaties kan ondersteunen: deeltijd wonen, gastenverblijf, werkretreat en rustig jaarrond gebruik.",
+      "noteLabel": "Voorbeeld klantnotitie"
+    },
+    "technology": {
+      "label": "Anders gebouwd",
+      "title": "Ontwikkeld voor comfort en levensduur.",
+      "lede": "Doordachte techniek, natuurlijke materialen en gecontroleerde productie staan centraal. Definitieve claims blijven gekoppeld aan verifieerbare documentatie.",
+      "link": "Bekijk bouwkundige vragen"
+    },
+    "process": {
+      "label": "Zo werkt het",
+      "title": "Van idee tot instapklaar.",
+      "lede": "Een gecontroleerd pad van interesse tot oplevering, zonder te veel te beloven over zaken die afhangen van grond, toegang of vergunningen."
+    },
+    "included": {
+      "label": "Scope helderheid",
+      "title": "Weet wat inbegrepen is voordat de offerte serieus wordt.",
+      "lede": "HOMIE moet transparant voelen voordat er geld wordt vastgelegd: productscope, site-verantwoordelijkheden en garantiepositie worden vanaf het begin gescheiden.",
+      "includedTitle": "Inbegrepen in de HOMIE scope.",
+      "excludedTitle": "Apart te bevestigen.",
+      "warrantyTitle": "Garantie en nazorg.",
+      "warrantyNote": "Portugese consumentenregels voor garantie gelden voor de uiteindelijke gecontracteerde scope. De classificatie hangt af van of het product wordt gezien als roerend goed, onroerend goed of geinstalleerd bouwwerk."
+    },
+    "price": {
+      "label": "Transparante scope",
+      "title": "Prijs hangt af van de definitieve scope.",
+      "lede": "We publiceren geen verzonnen vanafprijs. De brochure en aanvraagflow helpen om model, opties, locatie-aannames en budgetrange goed te kwalificeren.",
+      "link": "Vraag budgetrichting aan",
+      "asideTitle": "Elk HOMIE gesprek bevat:"
+    },
+    "risks": {
+      "label": "Voordat je koopt",
+      "title": "De eerlijke vragen besparen later geld.",
+      "lede": "Een tiny-homeproject kan alsnog vastlopen op toegang, grondwerken, voorzieningen of vergunningen. We maken die checks vroeg zichtbaar.",
+      "cta": "Check mijn situatie"
+    },
+    "scope": {
+      "label": "Wat budget beinvloedt",
+      "title": "Een beter prijsgesprek begint met de variabelen.",
+      "lede": "In plaats van een misleidende lage vanafprijs kwalificeert HOMIE de praktische factoren die de definitieve scope veranderen."
+    },
+    "quiz": {
+      "label": "Vind je HOMIE",
+      "title": "Beantwoord 3 korte vragen en wij begeleiden je.",
+      "lede": "Het kost ongeveer 30 seconden. In deze testversie worden je antwoorden lokaal opgeslagen totdat de API-route is gekoppeld."
+    },
+    "trust": {
+      "label": "Gebouwd voor het Atlantische leven",
+      "title": "Ontworpen voor Portugal. Geinspireerd door natuur.",
+      "lede": "HOMIE is gepositioneerd voor licht, natuur en binnen-buiten leven, terwijl claims nuchter blijven totdat ze gedocumenteerd zijn.",
+      "quote": "Het doel is een tiny home die serieus, rustig en eerlijk in materiaal aanvoelt.",
+      "cite": "HOMIE productrichting"
+    },
+    "climate": {
+      "label": "Ontworpen voor Portugal-condities",
+      "title": "Comfort moet echte zon, wind en vochtige avonden aankunnen.",
+      "lede": "Wonen in Portugal is mooi, maar de woning moet wel omgaan met hitte, kustinvloed, seizoensgebruik en dagelijks comfort."
+    },
+    "faq": {
+      "label": "Praktische vragen",
+      "title": "FAQ voor het eerste gesprek."
+    }
+  },
+  "specs": [
+    ["01", "Ca. 27 m2", "Compact wonen met een slaapkamer."],
+    ["02", "Fabrieksmatig gebouwd", "Gecontroleerde productie voor de siteplanning."],
+    ["03", "Houten basis", "Eerlijke materialen in plaats van wegwerp-chalet logica."],
+    ["04", "Compleet geleverd", "Keuken, badkamer en kernfuncties voor wonen."],
+    ["05", "Luchtdichte denkwijze", "Comfortgerichte bouwprioriteiten."],
+    ["06", "Portugal-first", "Ontworpen rond lokale gebruikssituaties."]
+  ],
+  "options": [
+    ["Exterieur", "Gevel- en terraskeuzes"],
+    ["Keuken", "Compact dagelijks wonen"],
+    ["Constructie", "Hout- en isolatielogica"],
+    ["Terras", "Potentie als buitenkamer"]
+  ],
+  "configurator": {
+    "labels": {
+      "baseTitle": "Casco HOMIE shell",
+      "baseText": "De gecontroleerde houten shell: structuur, gevelbekleding, isolatiebasis, ramen, deuren en voorbereide technische zones. Voeg alleen de modules toe die je echt nodig hebt.",
+      "presetsTitle": "Start met een scope",
+      "modulesTitle": "Voeg productie-veilige modules toe",
+      "summaryTitle": "Jouw indicatieve scope",
+      "selectedLabel": "Geselecteerde modules",
+      "noModules": "Alleen casco shell",
+      "scopeLabel": "Scope",
+      "marginLabel": "Categorieen",
+      "productionLabel": "Modules",
+      "save": "Scope opslaan",
+      "saved": "Scope opgeslagen",
+      "cta": "Vraag deze scope aan",
+      "levels": ["Alleen casco", "Casco plus", "Richting instapklaar"]
+    },
+    "presets": [
+      {
+        "id": "casco",
+        "title": "Alleen casco",
+        "text": "Lege shell voor kopers die maximale lokale afbouwcontrole willen.",
+        "modules": []
+      },
+      {
+        "id": "essentials",
+        "title": "Essentieel",
+        "text": "Keuken, badkamer en technische basis.",
+        "modules": ["kitchen", "bathroom", "electrical", "climate"]
+      },
+      {
+        "id": "outdoor",
+        "title": "Buitenleven",
+        "text": "Deck, pergola en solar-ready voorbereiding.",
+        "modules": ["deck", "pergola", "solar"]
+      },
+      {
+        "id": "ready",
+        "title": "Instapklaar",
+        "text": "De meest complete gecontroleerde scope zonder de shell te veranderen.",
+        "modules": ["kitchen", "bathroom", "interior", "electrical", "climate", "deck", "pergola", "solar"]
+      }
+    ],
+    "modules": [
+      {
+        "id": "kitchen",
+        "title": "Keukenmodule",
+        "text": "Compacte keukenafbouw met gecontroleerde apparatuur- en afwerkingskeuzes.",
+        "category": "Interieur",
+        "tag": "K"
+      },
+      {
+        "id": "bathroom",
+        "title": "Badkamermodule",
+        "text": "Badkamerzone als herhaalbaar pakket, niet als maatwerkindeling.",
+        "category": "Interieur",
+        "tag": "B"
+      },
+      {
+        "id": "interior",
+        "title": "Interieurafwerking",
+        "text": "Wand, vloer en trim zodat de shell een rustige leefruimte wordt.",
+        "category": "Afwerking",
+        "tag": "I"
+      },
+      {
+        "id": "electrical",
+        "title": "Elektra + verlichting",
+        "text": "Stopcontacten, schakelaars en lichtplan binnen een gecontroleerde layout.",
+        "category": "Techniek",
+        "tag": "E"
+      },
+      {
+        "id": "climate",
+        "title": "Verwarming / koeling",
+        "text": "Comfortpakket voor dagelijks gebruik, zomerhitte en koelere avonden.",
+        "category": "Comfort",
+        "tag": "C"
+      },
+      {
+        "id": "deck",
+        "title": "Deckmodule",
+        "text": "Een herhaalbaar deckpakket dat binnen-buiten wonen activeert.",
+        "category": "Buiten",
+        "tag": "D"
+      },
+      {
+        "id": "pergola",
+        "title": "Pergola / schaduw",
+        "text": "Schaduwstructuur voor Portugese zon als gecontroleerde outdoor add-on.",
+        "category": "Buiten",
+        "tag": "P"
+      },
+      {
+        "id": "solar",
+        "title": "Solar-ready prep",
+        "text": "Voorbereiding voor een later solargesprek zonder off-grid prestaties te beloven.",
+        "category": "Energie",
+        "tag": "S"
+      }
+    ]
+  },
+  "benefits": [
+    ["Financiele intelligentie", "Minder complexiteit, duidelijkere keuzes."],
+    ["Tijdvrijheid", "Minder onderhoud, meer leven."],
+    ["Gezond wonen", "Natuurlijke materialen, focus op betere lucht."],
+    ["Voor nu en later", "Gebouwd om lang mee te gaan, verantwoord gemaakt."]
+  ],
+  "comparison": {
+    "headers": {
+      "factor": "Vraag",
+      "chalet": "Goedkoop chalet",
+      "mobile": "Standaard mobile home",
+      "homie": "HOMIE"
+    },
+    "rows": [
+      ["Kernidee", "Snelle beschutting tegen laagste kosten.", "Verplaatsbare woonunit.", "Compacte architectonische houten woning."],
+      ["Materiaallogica", "Vaak kunststof, dunne panelen of goedkope afwerkingen.", "Gemengde systemen, vaak prijsgericht.", "Hout-first, repareerbaar en eerlijk in materiaal."],
+      ["Comfortprioriteit", "Meestal basiscomfort per seizoen.", "Sterk afhankelijk van specificatie.", "Isolatie, luchtdichtheid en dagelijks comfort zijn kernvragen."],
+      ["Perceptie", "Kan tijdelijk of vakantiepark-achtig voelen.", "Praktisch, maar niet altijd architectonisch.", "Ontworpen om als een echte kleine woning te voelen."],
+      ["Aanpassing", "Veel cosmetische keuzes, minder systeemhelderheid.", "Vaak pakketgedreven.", "Beperkte nuttige opties om kwaliteit te controleren."],
+      ["Risicoaanpak", "Belangrijke uitsluitingen komen soms laat.", "Transport en plaatsing moeten nog steeds gecheckt worden.", "Scope, grond, toegang en verantwoordelijkheden worden vroeg gescheiden."]
+    ],
+    "proof": [
+      ["Beperkte opties zijn een voordeel", "Minder keuzes maken kwaliteit, budget en oplevering beter controleerbaar."],
+      ["Geen valse beloftes", "Vergunningen, fundering, toegang en definitieve prijs blijven apart totdat ze zijn gecheckt."]
+    ]
+  },
+  "buyerPaths": {
+    "items": [
+      ["Ik heb al grond", "Begin met toegang, voorzieningen, grondcondities en lokale beperkingen.", "Beste vervolgstap: site-readiness check."],
+      ["Ik zoek nog grond", "Gebruik HOMIE-eisen om geen perceel te kopen dat leverings- of vergunningsproblemen geeft.", "Beste vervolgstap: grondchecklist."],
+      ["Ik heb een villa", "Een compacte gastenunit kan privacy toevoegen zonder de hoofdwoning aan te passen.", "Beste vervolgstap: guest-house fit review."],
+      ["Ik wil verhuurpotentie", "Verhuur vraagt juridische, licentie-, verzekerings- en planningschecks voordat je met inkomsten rekent.", "Beste vervolgstap: risicoreview voor cijfers."],
+      ["Ik woon buiten Portugal", "Kopers op afstand hebben een duidelijke taakverdeling nodig voor levering, lokaal werk en overdracht.", "Beste vervolgstap: remote-buyer route."]
+    ]
+  },
+  "locationStories": [
+    {
+      "title": "Voor kopers met een kustperceel.",
+      "place": "Atlantisch klifperceel",
+      "note": "Een compacte woning waarbij oceaan, lucht en buitenleven de echte luxe blijven."
+    },
+    {
+      "title": "Voor landelijke grondeigenaren.",
+      "place": "Sinaasappel- en olijfgaard",
+      "note": "Een echte houten gastenwoning die rustig tussen bomen, stenen muren en bestaand land staat."
+    },
+    {
+      "title": "Voor villa-eigenaren die extra ruimte willen.",
+      "place": "Moderne villatuin",
+      "note": "Een zelfstandige suite voor familie of gasten zonder de hoofdwoning te verbouwen."
+    },
+    {
+      "title": "Voor kopers die privacy zoeken in het binnenland.",
+      "place": "Pijnboom- en kurkeik retreat",
+      "note": "Een beschutte plek voor rustige dagen, gefocust werk of een tweede basis met lage impact."
+    }
+  ],
+  "techLayers": ["Houten gevelbekleding", "Geventileerde spouw", "Houtvezelisolatie", "Dampopen membraan", "Houten frame", "Interieurafwerking"],
+  "techProof": [
+    ["Isolatie als vertrekpunt", "Comfort en seizoensgebruik worden als kernvragen behandeld."],
+    ["Gezond binnenklimaat", "Materiaalkeuzes en ventilatie moeten dagelijks wonen ondersteunen."],
+    ["Heldere constructie", "Scope, verantwoordelijkheden en locatie-aannames worden gescheiden."]
+  ],
+  "process": [
+    ["1", "Configureer", "Kies de modelrichting en nuttige opties."],
+    ["2", "Ontvang offerte", "Krijg een gedetailleerd en transparant voorstel."],
+    ["3", "Sitecheck", "Controleer toegang, voorzieningen en gereedheid."],
+    ["4", "Bouw in fabriek", "Precisieproductie in een gecontroleerde omgeving."],
+    ["5", "Leverplanning", "Spreek verantwoordelijkheden af voordat de woning beweegt."],
+    ["6", "Oplevering", "Ontvang de afgewerkte tiny home met duidelijke scope."]
+  ],
+  "included": ["Tiny home indeling met een slaapkamer", "Keuken- en badkamerfuncties", "Scope voor interieur- en exterieurafwerking", "Scope voor verlichting, stopcontacten en schakelaars", "Gecontroleerde beperkte opties", "Ontworpen rond Portugal gebruikssituaties"],
+  "excluded": ["Garanties op planning of vergunningen", "Aannames over transport, kraan of lossen", "Funderingen, steunen of grondwerken", "Beloftes over huurinkomsten", "Niet-geverifieerde energieprestatieclaims", "Open-ended maatwerkbouw"],
+  "warranty": ["Algemene juridische richting: roerende goederen hebben een garantie van 3 jaar.", "Als het als onroerend goed wordt behandeld, kan Portugees recht 5 jaar algemeen en 10 jaar voor structurele bouwelementen voorzien.", "Definitieve garantieperiode, uitsluitingen, onderhoudsplichten en overdrachtsdocumenten worden contractueel bevestigd."],
+  "priceBullets": ["Gebruikssituatie en locatiecheck", "Model- en optiereview", "Inbegrepen en uitgesloten scope", "Aanbeveling voor de volgende stap"],
+  "scopeFactors": [
+    ["Grond en toegang", "Smalle wegen, hellingen, kraantoegang en losruimte kunnen haalbaarheid en kosten veranderen."],
+    ["Fundering en steunen", "Grondwerken zijn locatiespecifiek en horen niet verstopt te zitten in een vage huisprijs."],
+    ["Aansluitingen", "Water, afvalwater, stroom en internet moeten apart van de woning worden bekeken."],
+    ["Afwerking en opties", "Exterieur, keuken, terras en energiekeuzes moeten beperkt genoeg blijven om controleerbaar te zijn."],
+    ["Transport en overdracht", "Route, timing en verantwoordelijkheden moeten bevestigd zijn voor commitment."],
+    ["Vergunning en gebruik", "Wonen, gasten, werk of verhuur kunnen veranderen wat lokaal gecheckt moet worden."]
+  ],
+  "riskChecks": [
+    ["Kan de woning de locatie bereiken?", "Leveringstoegang is vaak de eerste echte beperking, zeker op landelijke of heuvelachtige locaties."],
+    ["Wie regelt de fundering?", "Steunen en grondwerken moeten helder zijn voordat de woning wordt geproduceerd."],
+    ["Welke vergunningen gelden?", "Geen pagina zou installatie of verhuur mogen beloven zonder lokale checks."],
+    ["Hoe presteert het in de zomer?", "Schaduw, orientatie, ventilatie en isolatiestrategie zijn belangrijk in Portugese zomerhitte."],
+    ["Wat is uitgesloten?", "Transport, kraan, voorzieningen en landscaping moeten zichtbaar zijn, niet laat ontdekt worden."],
+    ["Wat is gedocumenteerd?", "Engineering-, energie- en materiaalclaims moeten worden onderbouwd met documentatie."]
+  ],
+  "climatePoints": [
+    ["Zomerhitte", "Orientatie, schaduw, ventilatie en isolatie moeten samenwerken."],
+    ["Kustinvloed", "Materialen en detaillering moeten passen bij zon, wind en zoutere lucht."],
+    ["Seizoensgebruik", "Een woning die deels leeg staat heeft nog steeds vocht- en comfortdenken nodig."],
+    ["Buitenleven", "Deck, glas en drempeldetails moeten buitenruimte onderdeel van de woning maken."]
+  ],
+  "faq": [
+    ["Kan ik de tiny home aanpassen?", "Ja, maar het eerste aanbod is bewust beperkt. Het doel is een gecontroleerd product, geen open-ended maatwerkproject."],
+    ["Kan dit overal in Portugal geplaatst worden?", "Locatie, toegang, grondcondities, voorzieningen en vergunningen moeten worden gecontroleerd voordat er iets wordt toegezegd. Algarve-aanvragen zijn de eerste launch focus."],
+    ["Zijn prijzen definitief?", "Nee. Deze pagina doet geen definitieve prijsclaim. Budgetranges worden gebruikt om de aanvraag te kwalificeren."],
+    ["Wat maakt HOMIE anders dan een goedkoop chalet?", "HOMIE is gepositioneerd rond houtbouw, luchtdichtheid, isolatieprioriteiten, ingebouwde functies en een gecontroleerd optieproces."],
+    ["Heb ik grond nodig voordat ik contact opneem?", "Nee, maar de status van grond verandert het gesprek. Met bestaande grond kunnen toegang, voorzieningen en lokale beperkingen eerder worden bekeken."],
+    ["Kan HOMIE als verhuurunit worden gebruikt?", "Mogelijk verhuurgebruik vraagt aparte juridische, planologische, verzekerings- en financiele controles. Deze pagina belooft geen huurinkomsten."],
+    ["Wat zit in het eerste model?", "Het eerste model is gebaseerd op een slaapkamer, keuken, badkamer en compacte woonfuncties. Definitieve inclusies horen in brochure en scope te worden bevestigd."],
+    ["Kan ik buiten Portugal bestellen?", "Aanvragen buiten Portugal kunnen worden gekwalificeerd, maar logistiek, compliance, levering en lokale eisen moeten eerst worden bekeken."]
+  ],
+  "quiz": {
+    "q1": "Waarvoor zou je HOMIE gebruiken?",
+    "q2": "Welke stijl spreekt je het meest aan?",
+    "q3": "Wat is je budgetrange?",
+    "name": "Naam",
+    "email": "Email",
+    "country": "Locatie / land",
+    "consent": "Ik ga ermee akkoord dat HOMIE contact met mij opneemt over tiny homes en begrijp dat dit een lokaal testformulier is.",
+    "submit": "Bekijk mijn aanbeveling",
+    "success": "Dank je. Je aanvraag is geaccepteerd door de prototype-API.",
+    "error": "Controleer je e-mailadres en probeer opnieuw.",
+    "prototype": "Dank je. Dit prototype heeft je aanvraag lokaal opgeslagen. De backend-koppeling volgt later.",
+    "useCases": ["Deeltijd wonen", "Voltijd wonen", "Gastenverblijf", "Werkretreat"],
+    "styles": ["Natuurlijk hout", "Modern donker", "Warm minimalistisch"],
+    "budgets": ["Onder 50k", "50k - 75k", "75k - 100k", "100k+"]
+  },
+  "footer": {
+    "description": "Architectonische tiny homes ontworpen voor wonen in Portugal.",
+    "address": "Lagos / Algarve, Portugal - servicedetails te bevestigen voor lancering",
+    "explore": "Verkennen",
+    "company": "Bedrijf",
+    "stay": "Blijf op de hoogte",
+    "stayText": "Nieuwe projecten, ideeen en updates.",
+    "emailPlaceholder": "Je e-mail",
+    "copyright": "© 2026 HOMIE. Alle rechten voorbehouden. Identiteitsdetails te bevestigen voor lancering.",
+    "privacy": "Privacybeleid",
+    "terms": "Voorwaarden",
+    "links": ["Over HOMIE", "Duurzaamheid", "Contact", "Google Maps"]
+  },
+  "legal": {
+    "notice": "Identity, email, address, socials, and legal text must be confirmed before launch."
+  }
+}
