@@ -1204,15 +1204,28 @@ input {
 }
 
 .buyer-path-grid article {
-  display: grid;
-  grid-template-rows: 1fr auto auto;
+  position: relative;
+  display: flex;
   min-height: 300px;
-  align-content: center;
+  flex-direction: column;
+  justify-content: center;
   background: var(--bg);
-  padding: 0 22px;
+  padding: 0 22px 86px;
+}
+
+.buyer-path-grid article::after {
+  position: absolute;
+  top: 64%;
+  right: 22px;
+  left: 22px;
+  height: 0.5px;
+  background: rgba(17, 17, 17, 0.22);
+  content: "";
 }
 
 .buyer-path-grid strong {
+  display: block;
+  margin: 0 0 8px;
   font-size: 1.1rem;
   line-height: 1.15;
 }
@@ -1223,35 +1236,17 @@ input {
   font-size: 0.92rem;
 }
 
-.buyer-path-grid strong,
-.buyer-path-grid p {
-  align-self: start;
-  grid-row: 1;
-  padding-inline: 0;
-}
-
-.buyer-path-grid strong {
-  align-self: end;
-  padding-top: 0;
-  transform: translateY(-43px);
-}
-
-.buyer-path-grid p {
-  align-self: end;
-  padding-top: 0;
-  transform: translateY(16px);
-}
-
 .buyer-path-grid span {
+  position: absolute;
+  top: calc(64% + 22px);
+  right: 22px;
+  left: 22px;
   display: block;
   height: auto;
-  align-self: start;
-  grid-row: 3;
-  border-top: 0.5px solid rgba(17, 17, 17, 0.22);
   color: var(--green);
   font-weight: 800;
-  margin-top: 0;
-  padding: 22px 0 0;
+  margin: 0;
+  padding: 0;
 }
 
 .location-gallery {
