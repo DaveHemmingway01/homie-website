@@ -2723,10 +2723,7 @@ details p {
   }
 
   .teaser-visual-layer {
-    display: grid;
-    align-content: end;
-    gap: 8px;
-    padding: 16px;
+    display: none;
   }
 
   .scope-badge,
