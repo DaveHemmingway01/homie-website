@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
+import { AnimatedModuleTiles } from "@/components/AnimatedModuleTiles";
 import { BenefitItem } from "@/components/BenefitItem";
 import { Button } from "@/components/Button";
 import { FaqItem } from "@/components/FaqItem";
@@ -101,11 +102,9 @@ export default function HomePage() {
               <span className="scope-line scope-line-b" />
             </div>
           </div>
-          <ul>
-            {[teaserModules[0], teaserModules[1], teaserModules[5], teaserModules[7]].map((module) => (
-              <li key={module.title}>{module.title}</li>
-            ))}
-          </ul>
+          <AnimatedModuleTiles
+            items={[teaserModules[0], teaserModules[1], teaserModules[5], teaserModules[7]].map((module) => module.title)}
+          />
         </div>
       </section>
 
