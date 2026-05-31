@@ -1250,6 +1250,49 @@ input {
   font-weight: 900;
 }
 
+.location-progress {
+  display: flex;
+  gap: 8px;
+  width: min(220px, 100%);
+  margin-top: 18px;
+}
+
+.location-progress button {
+  position: relative;
+  width: 42px;
+  height: 4px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(17, 17, 17, 0.14);
+  cursor: pointer;
+  padding: 0;
+}
+
+.location-progress button::after {
+  position: absolute;
+  inset: 0;
+  width: 0;
+  border-radius: inherit;
+  background: #111;
+  content: "";
+}
+
+.location-progress button.active::after {
+  width: 100%;
+  animation: location-progress 4.6s linear;
+}
+
+@keyframes location-progress {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
 .location-stack {
   display: grid;
   grid-auto-columns: minmax(720px, 92%);
@@ -1259,6 +1302,7 @@ input {
   padding: 0 2px 24px;
   scroll-padding-inline: 2px;
   scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
   scrollbar-width: thin;
 }
 

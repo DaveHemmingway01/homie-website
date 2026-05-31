@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { SectionHeading } from "@/components/SectionHeading";
 
 type LocationStory = {
@@ -39,22 +39,94 @@ const locationImages = [
 
 export function LocationGallery({ label, title, lede, noteLabel, stories }: LocationGalleryProps) {
   const trackRef = useRef<HTMLDivElement>(null);
+  const pausedRef = useRef(false);
+  const activeIndexRef = useRef(0);
+  const [activeIndex, setActiveIndex] = useState(0);
 
-  const scroll = (direction: "previous" | "next") => {
+  const setActive = (index: number) => {
+    activeIndexRef.current = index;
+    setActiveIndex(index);
+  };
+
+  const scrollToIndex = (index: number) => {
     const track = trackRef.current;
+    const card = track?.children[index] as HTMLElement | undefined;
 
-    if (!track) {
+    if (!track || !card) {
       return;
     }
 
-    track.scrollBy({
-      left: direction === "next" ? track.clientWidth * 0.92 : -track.clientWidth * 0.92,
+    track.scrollTo({
+      left: card.offsetLeft - track.offsetLeft,
       behavior: "smooth"
     });
+    setActive(index);
   };
 
+  const scroll = (direction: "previous" | "next") => {
+    const nextIndex =
+      direction === "next"
+        ? (activeIndexRef.current + 1) % stories.length
+        : (activeIndexRef.current - 1 + stories.length) % stories.length;
+
+    if (!stories.length) {
+      return;
+    }
+
+    scrollToIndex(nextIndex);
+  };
+
+  useEffect(() => {
+    const track = trackRef.current;
+
+    if (!track || stories.length < 2 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      return;
+    }
+
+    const updateActiveFromScroll = () => {
+      const cards = Array.from(track.children) as HTMLElement[];
+      const nearest = cards.reduce(
+        (best, card, index) => {
+          const distance = Math.abs(card.offsetLeft - track.offsetLeft - track.scrollLeft);
+          return distance < best.distance ? { index, distance } : best;
+        },
+        { index: 0, distance: Number.POSITIVE_INFINITY }
+      );
+
+      setActive(nearest.index);
+    };
+
+    const timer = window.setInterval(() => {
+      if (!pausedRef.current) {
+        scroll("next");
+      }
+    }, 4600);
+
+    track.addEventListener("scroll", updateActiveFromScroll, { passive: true });
+
+    return () => {
+      window.clearInterval(timer);
+      track.removeEventListener("scroll", updateActiveFromScroll);
+    };
+  }, [stories.length]);
+
   return (
-    <section className="location-gallery" id="locations">
+    <section
+      className="location-gallery"
+      id="locations"
+      onMouseEnter={() => {
+        pausedRef.current = true;
+      }}
+      onMouseLeave={() => {
+        pausedRef.current = false;
+      }}
+      onFocus={() => {
+        pausedRef.current = true;
+      }}
+      onBlur={() => {
+        pausedRef.current = false;
+      }}
+    >
       <div className="location-intro">
         <SectionHeading label={label} title={title} lede={lede} />
         <div className="location-slider-controls">
@@ -64,6 +136,18 @@ export function LocationGallery({ label, title, lede, noteLabel, stories }: Loca
           <button type="button" onClick={() => scroll("next")} aria-label="Next location">
             →
           </button>
+        </div>
+        <div className="location-progress" aria-label="Location slide progress">
+          {stories.map((story, index) => (
+            <button
+              type="button"
+              key={story.title}
+              className={index === activeIndex ? "active" : ""}
+              onClick={() => scrollToIndex(index)}
+              aria-label={`Show location ${index + 1}`}
+              aria-current={index === activeIndex ? "true" : undefined}
+            />
+          ))}
         </div>
       </div>
       <div className="location-stack" ref={trackRef} aria-label="HOMIE location use cases">
