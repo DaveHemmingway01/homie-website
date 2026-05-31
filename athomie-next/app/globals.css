@@ -1205,32 +1205,44 @@ input {
 
 .buyer-path-grid article {
   display: grid;
-  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: 1fr 1fr;
   min-height: 300px;
-  align-content: start;
+  align-content: stretch;
   background: var(--bg);
   padding: 0;
 }
 
 .buyer-path-grid strong {
-  align-self: end;
-  padding: 22px 22px 0;
   font-size: 1.1rem;
   line-height: 1.15;
 }
 
 .buyer-path-grid p {
-  align-self: start;
   margin: 0;
-  padding: 14px 22px 22px;
   color: var(--muted);
   font-size: 0.92rem;
+}
+
+.buyer-path-grid strong,
+.buyer-path-grid p {
+  align-self: start;
+  grid-row: 1;
+  padding-inline: 22px;
+}
+
+.buyer-path-grid strong {
+  padding-top: 22px;
+}
+
+.buyer-path-grid p {
+  padding-top: 76px;
 }
 
 .buyer-path-grid span {
   display: block;
   height: 100%;
   align-self: start;
+  grid-row: 2;
   border-top: 0.5px solid rgba(17, 17, 17, 0.14);
   color: var(--green);
   font-weight: 800;
