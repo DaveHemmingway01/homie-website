@@ -147,7 +147,7 @@ export default async function proxy(request: NextRequest) {
       response.cookies.set(cookieName, sitePassword, {
         httpOnly: true,
         sameSite: "lax",
-        secure: request.nextUrl.protocol === "https:",
+        secure: request.headers.get("x-forwarded-proto") === "https",
         maxAge: 60 * 60 * 24 * 14,
         path: "/"
       });
