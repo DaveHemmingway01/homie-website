@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laco Hub Lagos | Website Mockup</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Laco Hub home">
+        <span class="brand-wordmark">Laco Hub</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#spaces">Spaces</a>
+        <a href="#community">Community</a>
+        <a href="#location">Location</a>
+        <a href="#life">Life at Laco</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#contact">Check availability</a>
+    </header>
+
+    <main id="top">
+      <section class="hero video-hero">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            class="hero-poster"
+            src="https://static.wixstatic.com/media/864cc9_a8bfa9b58af748d8bf256af67b88f547~mv2.jpg/v1/fill/w_1800,h_1100,al_c,q_85,enc_auto/LACO-12.jpg"
+            alt=""
+          />
+          <iframe
+            class="hero-video"
+            src="https://www.youtube.com/embed/I51uKoEyFes?autoplay=1&mute=1&controls=0&loop=1&playlist=I51uKoEyFes&playsinline=1&rel=0&modestbranding=1"
+            title="Laco Hub placeholder background video"
+            allow="autoplay; encrypted-media; picture-in-picture"
+          ></iframe>
+        </div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <img class="hero-logo" src="./assets/laco-hub-logo.png" alt="Laco Hub" />
+          <div class="hero-copy">
+            <h1>Work, store, build and grow in Lagos.</h1>
+            <p>
+              Flexible offices, workshops, logistics and light industrial spaces
+              inside a growing factory-turned-business and culture hub near the
+              N125 and A22.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-btn" href="#contact">Check availability</a>
+              <a class="secondary-btn" href="#spaces">Explore spaces</a>
+            </div>
+          </div>
+          <div class="hero-graphics" aria-label="Laco Hub key details">
+            <div>
+              <strong>3,892 m2</strong>
+              <span>covered area</span>
+            </div>
+            <div>
+              <strong>7,344 m2</strong>
+              <span>exterior area</span>
+            </div>
+            <div>
+              <strong>N125 + A22</strong>
+              <span>fast access</span>
+            </div>
+            <div>
+              <strong>Ample parking</strong>
+              <span>for teams and logistics</span>
+            </div>
+          </div>
+          <div class="availability-panel">
+            <span>Now matching tenants</span>
+            <strong>Offices, storage, workshops</strong>
+            <a href="#contact">Tell us what you need</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="spaces" class="section spaces-section">
+        <div class="section-heading">
+          <h2>Find the right base for your business.</h2>
+          <p>
+            Start with a use case, then talk to the Laco team about size,
+            utilities, access and availability.
+          </p>
+        </div>
+        <div class="space-filter" role="tablist" aria-label="Space type filter">
+          <button class="filter-btn active" type="button" data-filter="all">All</button>
+          <button class="filter-btn" type="button" data-filter="quiet">Quiet work</button>
+          <button class="filter-btn" type="button" data-filter="industrial">Industrial</button>
+          <button class="filter-btn" type="button" data-filter="logistics">Logistics</button>
+        </div>
+        <div class="space-grid">
+          <article class="space-card" data-kind="quiet">
+            <img
+              src="https://static.wixstatic.com/media/ea46d7_6d79b5223a244845b761e06a295fbaa9~mv2.jpg/v1/fill/w_720,h_460,al_c,q_85,enc_auto/LACO-10.jpg"
+              alt="Office and workspace at Laco Hub"
+            />
+            <div>
+              <h3>Offices</h3>
+              <p>Move-in ready rooms for teams, operators and growing local companies.</p>
+              <span>Desks, meetings, focused work</span>
+            </div>
+          </article>
+          <article class="space-card" data-kind="industrial">
+            <img
+              src="https://static.wixstatic.com/media/ea46d7_14ca93bcc64f4a968a09a55b8ea320a4~mv2.jpeg/v1/fill/w_720,h_460,fp_0.75_0.31,q_85,enc_auto/LacoHub%20-%207.jpeg"
+              alt="Flexible workshop unit at Laco Hub"
+            />
+            <div>
+              <h3>Workshops</h3>
+              <p>Practical units for makers, trades, repairs and production activity.</p>
+              <span>Utilities, loading, parking</span>
+            </div>
+          </article>
+          <article class="space-card" data-kind="logistics">
+            <img
+              src="https://static.wixstatic.com/media/11062b_1c38c58b88694a78a0ee3ef6c180cd48~mv2.jpg/v1/fill/w_720,h_460,al_c,q_85,enc_auto/11062b_1c38c58b88694a78a0ee3ef6c180cd48~mv2.jpg"
+              alt="Logistics storage boxes"
+            />
+            <div>
+              <h3>Logistics & storage</h3>
+              <p>Covered and exterior capacity close to Lagos, the N125 and A22.</p>
+              <span>Storage, fulfilment, distribution</span>
+            </div>
+          </article>
+          <article class="space-card" data-kind="industrial logistics">
+            <img
+              src="https://static.wixstatic.com/media/864cc9_a8bfa9b58af748d8bf256af67b88f547~mv2.jpg/v1/fill/w_720,h_460,al_c,q_85,enc_auto/LACO-12.jpg"
+              alt="Light industrial workspace"
+            />
+            <div>
+              <h3>Light industry</h3>
+              <p>Flexible space for companies that need power, access and room to work.</p>
+              <span>Production, assembly, operations</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="community" class="community">
+        <div class="community-image">
+          <img
+            src="https://static.wixstatic.com/media/864cc9_cbdda7e614c94da385559b250882f54d~mv2.jpg/v1/fill/w_820,h_760,al_c,q_85,enc_auto/LACO-19.jpg"
+            alt="Laco Hub community space"
+          />
+        </div>
+        <div class="community-copy">
+          <h2>A productive base with a local pulse.</h2>
+          <p>
+            Laco Hub is more than square meters. It brings businesses into one
+            practical campus with a cantina, shared facilities and everyday
+            chances to meet the people building in Lagos.
+          </p>
+          <div class="community-list">
+            <span>Shared cantina</span>
+            <span>Business neighbours</span>
+            <span>Events and news</span>
+            <span>Simple access</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="life" class="life-section">
+        <div class="life-heading">
+          <h2>Life at Laco is already moving.</h2>
+          <p>
+            The hub has the useful parts businesses need, plus the social pulse
+            that makes people want to stay: markets, makers, artists, food,
+            workshops and real Lagos energy.
+          </p>
+          <a href="https://www.instagram.com/laco.hub/" target="_blank" rel="noreferrer">Follow @laco.hub</a>
+        </div>
+        <div class="social-mosaic" aria-label="Instagram-inspired Laco Hub moments">
+          <article class="social-tile tall">
+            <img src="./assets/instagram/post-03.jpg" alt="Vintage parade event at Laco Hub" />
+            <span>Vintage Parade</span>
+          </article>
+          <article class="social-tile">
+            <img src="./assets/instagram/post-02.jpg" alt="Maker working at Laco Hub" />
+            <span>Makers at work</span>
+          </article>
+          <article class="social-tile">
+            <img src="./assets/instagram/post-10.jpg" alt="People at a Laco Hub market stand" />
+            <span>Local stalls</span>
+          </article>
+          <article class="social-tile wide">
+            <img src="./assets/instagram/post-08.webp" alt="Artist workshop announcement" />
+            <span>Creative workshops</span>
+          </article>
+          <article class="social-tile">
+            <img src="./assets/instagram/post-01.jpg" alt="Portrait from the Laco Hub community" />
+            <span>People first</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="location" class="section location-section">
+        <div class="location-copy">
+          <h2>Easy to reach. Easy to operate from.</h2>
+          <p>
+            Close to Lagos and positioned by the N125, with fast connection to
+            the A22. Built for people, vehicles, storage and daily operations.
+          </p>
+        </div>
+        <div class="route-strip" aria-label="Access routes">
+          <div><strong>Lagos</strong><span>nearby city access</span></div>
+          <div><strong>N125</strong><span>national road frontage</span></div>
+          <div><strong>A22</strong><span>regional connection</span></div>
+          <div><strong>Parking</strong><span>on-site capacity</span></div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact-copy">
+          <h2>Tell us what kind of space you need.</h2>
+          <p>
+            Share the basics and the Laco team can match your business with the
+            right office, workshop, storage or industrial option.
+          </p>
+          <div class="contact-note">
+            <strong>Useful to include</strong>
+            <span>space size, vehicle access, utilities, timing and team size</span>
+          </div>
+        </div>
+        <form class="contact-form" id="availabilityForm">
+          <label>
+            Name
+            <input name="name" type="text" autocomplete="name" required />
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+          <label>
+            Space type
+            <select name="space">
+              <option>Office</option>
+              <option>Workshop</option>
+              <option>Logistics & storage</option>
+              <option>Light industry</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+          <label>
+            What do you need?
+            <textarea name="message" rows="4"></textarea>
+          </label>
+          <button class="primary-btn" type="submit">Request availability</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </section>
+
+      <section id="news" class="section news-section">
+        <div class="section-heading compact">
+          <h2>News from the hub.</h2>
+          <p>Keep the site fresh with unit openings, tenants, markets, workshops and availability updates.</p>
+        </div>
+        <div class="news-grid">
+          <article>
+            <span>Availability</span>
+            <h3>New workshop units opening soon</h3>
+            <p>Publish space releases with size, access and ideal use cases.</p>
+          </article>
+          <article>
+            <span>Events</span>
+            <h3>Markets, food and open days</h3>
+            <p>Bring the Instagram energy onto the website and drive visits.</p>
+          </article>
+          <article>
+            <span>Community</span>
+            <h3>Meet the makers at Laco</h3>
+            <p>Feature tenants, artists and operators using the hub every week.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>Laco Hub Lagos</strong>
+        <span>Flexible business space near Lagos, Portugal.</span>
+      </div>
+      <nav class="footer-links" aria-label="Footer links">
+        <a href="https://www.instagram.com/laco.hub/" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="#contact">Check availability</a>
+      </nav>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
